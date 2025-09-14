@@ -1,0 +1,35 @@
+:root {
+  --primary-color: #4181ff;
+  --secondary-color: #91d3ff;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: 'Comic Sans MS', cursive;
+  font-size: 1.5rem;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-image:
+    repeating-conic-gradient(
+      var(--primary-color) 0% 25%, 
+      var(--secondary-color) 0% 50%
+    );
+  background-size: 60px 60px;
+
+  animation: scrollCheckerboard 10s linear infinite;
+}
+
+@keyframes scrollCheckerboard {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 120px 120px;
+  }
+}

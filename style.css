@@ -42,6 +42,10 @@ h6 {
   color:lightgray;
 }
 
+p {
+  color:azure;
+}
+
 @keyframes scrollCheckerboard {
   from {
     background-position: 0 0;

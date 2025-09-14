@@ -33,3 +33,9 @@ body {
     background-position: 120px 120px;
   }
 }
+
+.no_aa {
+  image-rendering: pixelated;    /* modern browsers */
+  image-rendering: crisp-edges;  /* older browsers */
+  -ms-interpolation-mode: nearest-neighbor; /* IE fallback */
+}

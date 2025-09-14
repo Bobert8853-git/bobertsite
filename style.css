@@ -25,6 +25,18 @@ body {
   animation: scrollCheckerboard 10s linear infinite;
 }
 
+
+h1 {
+  color:white;
+}
+
+h2 {
+  color:lightskyblue;
+}
+
+a {
+  color:lightcoral;
+}
 @keyframes scrollCheckerboard {
   from {
     background-position: 0 0;

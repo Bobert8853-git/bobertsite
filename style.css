@@ -6,7 +6,6 @@
 body {
   height: 100vh;
   margin: 0;
-  font-family: 'Comic Sans MS', cursive;
   font-size: 1.5rem;
   text-align: center;
 
@@ -59,4 +58,15 @@ p {
   image-rendering: pixelated;    /* modern browsers */
   image-rendering: crisp-edges;  /* older browsers */
   -ms-interpolation-mode: nearest-neighbor; /* IE fallback */
+}
+
+@font-face {
+  font-family: 'Comic Sans MS';
+  src: url('./fonts/ComicSansMS3.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Comic Sans MS', cursive;
 }

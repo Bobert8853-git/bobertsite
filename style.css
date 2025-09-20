@@ -61,13 +61,8 @@ p {
   -ms-interpolation-mode: nearest-neighbor; /* IE fallback */
 }
 
-@font-face {
-  font-family: 'Comic Sans MS';
-  src: url('./fonts/ComicSansMS3.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-body {
-  font-family: 'Comic Sans MS', cursive;
+.socials {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }

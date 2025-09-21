@@ -27,23 +27,23 @@ body {
 
 
 h1 {
-  color:white;
+  color:rgb(159, 212, 212);
 }
 
 h2 {
-  color:lightskyblue;
+  color:rgb(96, 151, 185);
 }
 
 a {
-  color:lightcoral;
+  color:rgb(151, 159, 207);
 }
 
 h6 {
-  color:lightgray;
+  color:rgb(190, 162, 228);
 }
 
 p {
-  color:azure;
+  color:rgb(219, 184, 228);
 }
 
 @keyframes scrollCheckerboard {

@@ -27,7 +27,12 @@ body {
 
 
 h1 {
-  color:rgb(159, 212, 212);
+  color: rgb(161, 190, 228);
+  text-shadow: 
+    -2px -2px 0 #002f4a,  
+     2px -2px 0 #00204a,
+    -2px  2px 0 #1a004a,
+     2px  2px 0 #4a003f;
 }
 
 h2 {
@@ -40,10 +45,6 @@ a {
 
 h6 {
   color:rgb(190, 162, 228);
-}
-
-p {
-  color:rgb(219, 184, 228);
 }
 
 @keyframes scrollCheckerboard {
@@ -66,3 +67,17 @@ p {
   justify-content: center;
   margin-top: 20px;
 }
+
+p {
+  color: rgb(203, 161, 228);
+  text-shadow: 
+    -2px -2px 0 #4a003f,  
+     2px -2px 0 #4a003f,
+    -2px  2px 0 #4a003f,
+     2px  2px 0 #4a003f;
+}
+
+p {
+  line-height: 1.5;
+}
+
